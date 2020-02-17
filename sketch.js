@@ -46,22 +46,33 @@ function draw() {
   // Pick an emoji, the "default" is train
   let emoji = "Null";
   if (label == "5") {
-    emoji = "5 pkr";
+    emoji = "Pak. Rupee";
   } else if (label == "10") {
-    emoji = "10 pkr";
+    emoji = "Pak. Rupee";
   } else if (label == "20") {
-    emoji = "20 pkr";
+    emoji = "Pak. Rupee";
   } else if (label == "50") {
-    emoji = "50 pkr";
+    emoji = "Pak. Rupee";
   } else if (label == "100") {
-    emoji = "100 pkr";
+    emoji = "Pak. Rupee";
   } else if (label == "500") {
-    emoji = "500 pkr";
+    emoji = "Pak. Rupee";
   } else if (label == "1000") {
-    emoji = "1000 pkr";
+    emoji = "Pak. Rupee";
   } else if (label == "5000") {
-    emoji = "5000 pkr";
+    emoji = "Pak. Rupee";
+  } else if (label == "usd") {
+    emoji = "USD";
+  } else if (label == "cd") {
+    emoji = "Canadian Dollar";
+  } else if (label == "aed") {
+    emoji = "AE Dirham";
+  } else if (label == "cn yen") {
+    emoji = "Chinese yen";
+  } else if (label == "oman") {
+    emoji = "Omani Riyal";
   }
+
 
 
 
